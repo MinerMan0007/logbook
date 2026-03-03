@@ -57,6 +57,15 @@ Vajuta 1 ja Enter konsoolirežiimi (CLI) jaoks.
 
 Vajuta 2 või lihtsalt Enter graafilise režiimi (GUI) jaoks.
 
+kui sa kasutad näiteks linux siis pean cloonima siis kui sul pole pythone3 laetud siis pane terminali 
+``` bash
+sudo apt install python3-tk 
+```
+ja mine terminali kaudu sinna sisse ja siis pane 
+```bash
+python3 main.py
+```
+
 ## 📖 Kasutusjuhend (GUI)
 
 Uue töö lisamine:

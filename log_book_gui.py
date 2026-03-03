@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox, filedialog
 from log_book import ERROR_LOG_FILE
 
 COLORS = {
-    "primary": "#2C3E50",
+    "primary": "#F44708",
     "secondary": "#ECF0F1",
     "accent": "#3498DB",
     "success": "#27AE60",
@@ -50,7 +50,12 @@ class LogBookGUI:
 
         tk.Label(inputs, text="Pealkiri:", bg=COLORS["secondary"]).grid(row=0, column=0, sticky="w", padx=5)
         self.ent_title = ttk.Entry(inputs, width=25)
-        self.ent_title.grid(row=0, column=1, padx=5, pady=5)
+        self.ent_title.grid(row=0, column=10, padx=5, pady=5)
+
+        tk.Label(inputs, text="tere see on label", bg=COLORS["primary"]).grid(row=1, column=0, sticky="w", padx=5)
+        self.Tere_label = ttk.Entry(inputs, width=25)
+        self.Tere_label.grid(row=0, column=10, padx=5, pady=5)
+
 
         tk.Label(inputs, text="Kirjeldus:", bg=COLORS["secondary"]).grid(row=0, column=2, sticky="w", padx=5)
         self.ent_desc = ttk.Entry(inputs, width=50)
